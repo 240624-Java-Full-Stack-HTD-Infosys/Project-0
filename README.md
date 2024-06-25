@@ -41,7 +41,7 @@ As an admin I should be able to...
  - Delete bank accounts
 
 
-## MVP Functional Requirements
+## Functional Requirements
  - Users should be able to register and login
  - Users should be able to preform CRUD operations on their resources via HTTP API
  - Users should be able to create one or more bank accounts and manage them
