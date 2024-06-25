@@ -13,11 +13,53 @@ The project is due on Friday 7/12/24 at 10:00 AM ET. We will each be presenting 
 
 Before the due date there is a suggested code freeze date at the end of the day on Wednessday 7/10/24. This means you should stop making major changes to the project, and instead focus on bug fixing, polish, and presentation. You should aim to have your project basically complete by that time.
 
-## Functional Requirements
+## User Stories
+As a guest I should be able to...
+ - Register a new user account
+ - Log into a user account
+
+As a user I should be able to...
+ - Create a new bank account
+ - View my bank accounts
+ - View a transaction history for each of my bank accounts
+ - Change my user information (name, phone, email, etc)
+ - Delete a bank account which has a $0.00 balance
+ - Deposit positive dollar amounts into a bank account, increasing the balance
+ - Withdraw positive dollar amounts from a bank account, reducing the balance
+ - Transfer money between bank accounts, reducing the balance of the source account and increasing the balance of the destination account
+
+### Stretch Goals
+As a user I should be able to...
+ - Share one or more bank accounts with another user, giving them joint access
+ - Un-share, or restrict access to my bank accounts, removing another user's access
+
+As an admin I should be able to...
+ - Do everything a regular user can do
+ - Elevate other user accounts to admins
+ - Reduce other admins to regular users
+ - Delete user accounts
+ - Delete bank accounts
+
+
+## MVP Functional Requirements
  - Users should be able to register and login
  - Users should be able to preform CRUD operations on their resources via HTTP API
- - 
+ - Users should be able to create one or more bank accounts and manage them
+ - Users should be able to deposit into, withdraw from, and transfer between bank accounts
+ - Users should be able to view a transaction history for each of their bank accounts
+
+### Stretch Goals
+ - There should be two roles, user and admin
+ - Admins should be able change other user's role to/from admin
+ - Admins should be able to delete other user accounts
+ - Admins should be able to delete bank accounts
+ - Users should be able to share their bank accounts with other users, giving them joint access
+
 
 ## Non-functional Requirements
  - User input should be validated for negative balances, out-of-bounds, types, special characters, ranges, etc.
- - 
+ - Application should be sanitized and injection-resistant
+ - Bank account balances should not suffer from floating point percision problems
+
+### Stretch Goals
+ - User sessions should be stateless (no session state on server, use tokens or cookies instead)
