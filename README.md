@@ -8,6 +8,15 @@ This project will use a PostGres SQL database hosted in AWS for persistence. We 
  - Due Date: 7/12/24
  - Presentations: 7/12/24 - 10:30 AM ET
 
+## Technologies
+ - Java
+ - SQL
+ - REST
+ - HTTP
+ - Javalin
+ - JUnit
+ - Mockito
+
 ## Presentations
 The project is due on Friday 7/12/24 at 10:00 AM ET. We will each be presenting our project and giving a quick demo. The presentation should only be 5-10 minutes per person, take some time to discuss the project, how it turned out, challenges you faced, your favorite or least favorite parts, etc. I would advise against stepping through the code during the presentation. 
 
