@@ -9,7 +9,7 @@ This project will use a PostGres SQL database hosted in AWS for persistence. We 
  - Presentations: 7/12/24 - 10:30 AM ET
 
 ## Presentations
-The project is due on Friday 7/12/24 at 10:00 AM ET. We will each be presenting our project and giving a quick demo. The presentation should only be 5-10 minutes per person, take some time to discuss the project, how it turned out, challenges you faces, your favorite or least favorite parts, etc. I would advise against stepping through the code during the presentation. 
+The project is due on Friday 7/12/24 at 10:00 AM ET. We will each be presenting our project and giving a quick demo. The presentation should only be 5-10 minutes per person, take some time to discuss the project, how it turned out, challenges you faced, your favorite or least favorite parts, etc. I would advise against stepping through the code during the presentation. 
 
 Before the due date there is a suggested code freeze date at the end of the day on Wednessday 7/10/24. This means you should stop making major changes to the project, and instead focus on bug fixing, polish, and presentation. You should aim to have your project basically complete by that time.
 
