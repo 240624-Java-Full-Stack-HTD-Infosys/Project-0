@@ -63,3 +63,22 @@ As an admin I should be able to...
 
 ### Stretch Goals
  - User sessions should be stateless (no session state on server, use tokens or cookies instead)
+
+## Checklist
+These are the MVP features your project should have complete. 
+ - Registration
+ - Login
+ - Create bank account
+ - View bank accounts
+ - Deposit money
+ - Withdraw money
+ - Transfer money
+ - Delete bank account
+ - View transactions per account
+ - Change user account info (name, address, email, etc)
+ - Validate user input
+ - Resist SQL injection (use PreparedStatement and parameterize)
+ - Avoid floating point percision (no millionths of pennies)
+
+## Custom Projects
+If you wanted to put your own creative spin on this project, it doesn't need to be a banking app. It needs to be a webapp with an HTTP API which exposes CRUD functionality. If you have another idea, come talk to me and we can create a unique set of requirements for your project. It will still need to cover all of the same programming principles. 
